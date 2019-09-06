@@ -1,0 +1,35 @@
+{
+  "name": "@Xenonheat/ResponseBuilder",
+  "version": "1.0.0",
+  "description": "Utility project to build consistent requests to the backend.",
+  "main": "build/main/index.js",
+  "scripts": {
+    "build": "rm -rf build && npm run webpack",
+    "test": "standard --fix --verbose | snazzy",
+    "webpack": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xenonheat/ResponseBuilder.git"
+  },
+  "keywords": [],
+  "author": "Olufemi Adesina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xenonheat/ResponseBuilder/issues"
+  },
+  "homepage": "https://github.com/Xenonheat/ResponseBuilder#readme",
+  "dependencies": {
+    "snazzy": "^8.0.0",
+    "standard": "^14.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "fs": "0.0.1-security",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
